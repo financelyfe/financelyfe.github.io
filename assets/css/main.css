@@ -1927,17 +1927,19 @@ input, select, textarea {
 				width: 200px;
 				}
 				
-				.cool:nth-child(1):hover .icon{ background: #4267B2;}
+				
+				.cool:nth-child(1):hover .icon{ background: #1DB954;}
 				.cool:nth-child(2):hover .icon{ background: #E1306C;}
 				.cool:nth-child(3):hover .icon{ background: #FF0000;}
 				.cool:nth-child(4):hover .icon{ background: #3CE19D;}
-				.cool:nth-child(5):hover .icon{ background: #1DA1F2;}
+				.cool:nth-child(5):hover .icon{ background: #4267B2;}
 				
-				.cool:nth-child(1):hover span { color: #4267B2;}
+				.cool:nth-child(1):hover span { color: #1DB954;}
 				.cool:nth-child(2):hover span { color: #E1306C;}
 				.cool:nth-child(3):hover span { color: #FF0000;}
 				.cool:nth-child(4):hover span { color: #3CE19D;}
-				.cool:nth-child(5):hover span { color: #1DA1F2;}
+				.cool:nth-child(5):hover span { color: #4267B2;}
+				
 				
 				.cool .icon {
 				display: inline-block;
