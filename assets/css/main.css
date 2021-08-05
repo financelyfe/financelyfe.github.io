@@ -3136,13 +3136,14 @@ input, select, textarea {
 
 
 		   /* four columns side by side */
+
 .column {
 	float: left;
 	width: 25%;
 	margin-bottom: 16px;
 	padding: 0 8px;
   }
-  
+
   /* Display the columns below each other instead of side by side on small screens */
   @media screen and (max-width: 650px) {
 	.column {
@@ -3195,6 +3196,37 @@ input, select, textarea {
                margin:auto;
 		   }
            
+		   #main .container::after,
+		   #main .row::after {
+			 content: unset;
+		   }
+		   
+		   
+		   #main .card {
+			 display: flex;
+			 height: 100%;
+		   
+			 flex-direction: column;
+		   }
+		   
+		   
+		   #main .card > img {
+			 display: block;
+		   }
+		   
+		   #main .card p {
+			 margin: 0;
+		   }
+		   
+		   
+		   #main .card .container {
+			 height: 100%;
+			 display: flex;
+			 flex-direction: column;
+			 justify-content: space-between;
+			 padding-top: 1rem;
+			 padding-bottom: 1rem;
+		   }
 
   /* iFrames */
   .iframe-container {
