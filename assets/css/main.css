@@ -3135,7 +3135,8 @@ input, select, textarea {
 		 
 
 
-		   /* four columns side by side */
+	/*OFFICERS SECTION*/
+ /* four columns side by side */
 
 .column {
 	float: left;
@@ -3188,13 +3189,7 @@ input, select, textarea {
   .button:hover {
 	background-color: #555;
   }
-		   #form { 
-			   width: 1900px;
-			}
-		 
-		   #form2 {
-               margin:auto;
-		   }
+		   
            
 		   #main .container::after,
 		   #main .row::after {
@@ -3227,7 +3222,14 @@ input, select, textarea {
 			 padding-top: 1rem;
 			 padding-bottom: 1rem;
 		   }
-
+		/*For the form on the Contact Us page*/
+		   #form { 
+			   width: 1900px;
+			}
+		 
+		   #form2 {
+               margin:auto;
+		   }
   /* iFrames */
   .iframe-container {
 	overflow: hidden;
