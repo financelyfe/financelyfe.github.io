@@ -220,7 +220,7 @@ input, select, textarea {
 
 		header > p {
 			display: block;
-			color: #f35858;
+			color: #32a852;
 			padding: 0.75em 0 1em 0;
 			font-size: 1.5em;
 			line-height: 1.5em;
@@ -228,6 +228,7 @@ input, select, textarea {
 
 		header.major {
 			text-align: center;
+			
 		}
 
 /* Container */
@@ -3134,7 +3135,7 @@ input, select, textarea {
 		 
 
 
-		   /* Three columns side by side */
+		   /* four columns side by side */
 .column {
 	float: left;
 	width: 25%;
