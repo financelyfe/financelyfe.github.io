@@ -286,6 +286,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		padding: 20px 0 0 20px;
 	}
 
 		.row > * {
@@ -529,6 +530,7 @@ input, select, textarea {
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				padding: 20px 0 0 20px;
 			}
 
 				.row > * {
@@ -3246,4 +3248,20 @@ input, select, textarea {
 	 top: 0;
 	 width: 100%;
   }
+
+  /*YouTube Content*/
+  #yt{
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%; 
+	height: 0;
+  }
+  #yt iframe{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
+  
 
