@@ -2089,7 +2089,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f35858;
+			color: #49c0f7;
 			border-color: rgba(243, 88, 88, 0.5);
 		}
 
